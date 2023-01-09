@@ -5,7 +5,7 @@
     'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
     'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
 
-  
+  $marineblue:hsl(213,96%,18%);
 
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -47,6 +47,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: ubuntu;
 }
 
 html,
@@ -55,3 +56,21 @@ body {
   overflow-x: hidden;
 }
 
+@font-face {
+  font-family: "ubuntu";
+  src: url("../public/Ubuntu-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "ubuntu";
+  src: url("../public/Ubuntu-Medium.ttf");
+  font-weight: 500;
+}
+
+
+@font-face {
+  font-family: "ubuntu";
+  src: url("../public/Ubuntu-Bold.ttf");
+  font-weight: 700;
+}
