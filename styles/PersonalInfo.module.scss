@@ -1,9 +1,10 @@
-
+@import "Variable";
 
 .Form_title{
 	font-family: ubuntu;
 	font-weight: 700;
 	font-size: 32px;
-	color: hsl(213, 83%, 18%);
+	//color: hsl(213, 83%, 18%);
+	color: $blueeee;
 }
 
