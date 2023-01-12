@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 
-import PersonalInfo from '../elements/information'
+import PersonalInfo from '../components/information'
 
 
 export default function Home() {

@@ -3,8 +3,8 @@ import styles from '../styles/PersonalInfo.module.scss'
 const PersonalInfo = () => {
 	return ( 
 		<form className={styles.info_form} >
-			<p className={styles.Form_title} >Personal info</p>
-			<p className={styles.Form_explanation}>
+			<p className={styles.form_title} >Personal info</p>
+			<p className={styles.form_explanation}>
 				Please your name, email address and phone number.
 			</p>
 			<label for="name" >
@@ -18,8 +18,8 @@ const PersonalInfo = () => {
 			<label for="phone">
 				Phone Number
 			</label>
-			<input type="tel" id="phone" name="phone">
-			</input>
+			<input type="tel" id="phone" name="phone" />
+			<input className={styles.submit_form} type="submit" value="Next Step" />
 		</form>
 	 );
 }

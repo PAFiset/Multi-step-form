@@ -4,18 +4,20 @@
   padding: 6rem;
   min-height: 100vh;
   background-color: hsl(206, 100%, 84%);
+
 }
 
 .form{
   background-color: white;
   display: flex;
   width: 100%;
+  max-width: 980px;
   border-radius: 10px;
+  padding: 10px;
 }
 
 .form_documents{
-  padding: 80px;
-  padding-left: 120px;
+  padding: 60px 90px 0;
   width: 100%;
 }
 
