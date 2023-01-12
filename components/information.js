@@ -10,15 +10,15 @@ const PersonalInfo = () => {
 			<label for="name" >
 				Name
 			</label>
-			<input type="text" id="name" name="name" />
+			<input type="text" id="name" name="name" required/>
 			<label for="email">
 				Email Address
 			</label>
-			<input type="email" id="email" name="email" />
+			<input type="email" id="email" name="email" required/>
 			<label for="phone">
 				Phone Number
 			</label>
-			<input type="tel" id="phone" name="phone" />
+			<input type="tel" id="phone" name="phone" required/>
 			<input className={styles.submit_form} type="submit" value="Next Step" />
 		</form>
 	 );
