@@ -17,8 +17,8 @@ export default function Home() {
   useEffect(() => {
     
     const ctx = gsap.context(() => { 
-      gsap.fromTo(mainPage.current,{opacity:0,y:50},{opacity:1,y:0,duration:2,delay:0.5});
-      gsap.fromTo(formchoice.current,{opacity:0,x:25},{opacity:1,x:0,duration:2,delay:2})
+      gsap.fromTo(mainPage.current,{opacity:0,y:50},{opacity:1,y:0,duration:1.5,});
+      gsap.fromTo(formchoice.current,{opacity:0,x:25},{opacity:1,x:0,duration:2,delay:1})
       
     });
 
